@@ -1,0 +1,39 @@
+.container {
+    background:
+      repeating-radial-gradient(ellipse at 80% 50%,rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 15px, rgba(255,255,255,0.5) 15px,
+        rgba(255,255,255,0.5) 30px) top left no-repeat,
+      repeating-radial-gradient(ellipse at 20% 50%,rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5) 10px, rgba(255,255,255,0.5) 10px,
+        rgba(255,255,255,0.5) 20px) top left no-repeat green;
+    background-size: 200px 200px, 150px 150px;
+    height: 200px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.box {
+    line-height: 5rem;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: violet; 
+    Background-image: linear-gradient(to right, #00A4CCFF, #F95700FF, #e2e223, #2727e2, #19ad19);
+}
+
+.A {
+    line-height: 5rem;
+    font-size: 20px;
+    height: 100px;
+    background-image: radial-gradient(
+        circle at top left,
+        #fdbb2d,
+        #22c1c3);
+}
+.B {
+    line-height: 5rem;
+    font-size: 20px;
+    height: 100px;
+    background-image: conic-gradient(
+                red, rgb(140, 88, 223), aqua
+                );
